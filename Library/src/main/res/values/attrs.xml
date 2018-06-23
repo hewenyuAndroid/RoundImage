@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="round" value="1" />
+            <enum name="square" value="2" />
+        </attr>
+        <attr name="corner" format="dimension|reference" />
+        <attr name="borderWidth" format="dimension|reference" />
+        <attr name="borderColor" format="color|reference" />
+        <attr name="borderOverlay" format="boolean" />
+        <attr name="fill_color" format="color" />
+        <attr name="circle_background_color" format="color" />
+    </declare-styleable>
+
+</resources>
