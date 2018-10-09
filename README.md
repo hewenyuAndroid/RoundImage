@@ -7,6 +7,10 @@
 
 ![listview中使用](https://upload-images.jianshu.io/upload_images/7082912-1076fdfc60ee0a76.gif?imageMogr2/auto-orient/strip)
 
+### 引用方式
+
+> compile 'com.hewenyu:RoundImage:1.0'
+
 ### 使用方式
 ```Java
 

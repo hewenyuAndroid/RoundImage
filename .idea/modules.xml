@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RoundImage.iml" filepath="$PROJECT_DIR$/RoundImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoundImage/RoundImage.iml" filepath="$PROJECT_DIR$/RoundImage/RoundImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoundImageView.iml" filepath="$PROJECT_DIR$/RoundImageView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

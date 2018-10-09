@@ -20,7 +20,7 @@
             android:src="@drawable/image"
             app:borderColor="#FF6600"
             app:borderOverlay="true"
-            app:borderWidth="5dp"
+            app:borderWidth="10dp"
             app:type="round" />
 
     </RelativeLayout>
