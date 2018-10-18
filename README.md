@@ -9,7 +9,7 @@
 
 ### 引用方式
 
-> compile 'com.hewenyu:RoundImage:1.0'
+> compile 'com.hewenyu:RoundImage:1.1'
 
 ### 使用方式
 ```Java
@@ -20,10 +20,10 @@
     android:layout_height="100dp"
     android:layout_centerInParent="true"
     android:src="@drawable/image"
-    app:borderColor="#FF6600"
-    app:borderOverlay="true"
-    app:borderWidth="5dp"
-    app:type="round" />
+    app:ivBorderColor="#FF6600"
+    app:ivBorderOverlay="true"
+    app:ivBorderWidth="10dp"
+    app:ivType="round" />
 
 <!-- 圆角显示 -->
 <com.hwy.round.RoundImageView
@@ -31,10 +31,10 @@
     android:layout_height="100dp"
     android:layout_centerInParent="true"
     android:src="@drawable/image2"
-    app:borderColor="#FF6600"
-    app:borderOverlay="true"
-    app:borderWidth="10dp"
-    app:corner="10dp"
-    app:type="square" />
+    app:ivBorderColor="#FF6600"
+    app:ivBorderOverlay="true"
+    app:ivBorderWidth="10dp"
+    app:ivCorner="10dp"
+    app:ivType="square" />
 
 ```

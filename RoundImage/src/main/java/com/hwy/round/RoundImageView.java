@@ -100,19 +100,19 @@ public class RoundImageView extends ImageView {
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundImageView, defStyle, 0);
 
-        mBorderWidth = a.getDimensionPixelSize(R.styleable.RoundImageView_borderWidth, DEFAULT_BORDER_WIDTH);
-        mBorderColor = a.getColor(R.styleable.RoundImageView_borderColor, DEFAULT_BORDER_COLOR);
-        mBorderOverlay = a.getBoolean(R.styleable.RoundImageView_borderOverlay, DEFAULT_BORDER_OVERLAY);
+        mBorderWidth = a.getDimensionPixelSize(R.styleable.RoundImageView_ivBorderWidth, DEFAULT_BORDER_WIDTH);
+        mBorderColor = a.getColor(R.styleable.RoundImageView_ivBorderColor, DEFAULT_BORDER_COLOR);
+        mBorderOverlay = a.getBoolean(R.styleable.RoundImageView_ivBorderOverlay, DEFAULT_BORDER_OVERLAY);
 
-        if (a.hasValue(R.styleable.RoundImageView_circle_background_color)) {
-            mCircleBackgroundColor = a.getColor(R.styleable.RoundImageView_circle_background_color,
+        if (a.hasValue(R.styleable.RoundImageView_iv_circle_background_color)) {
+            mCircleBackgroundColor = a.getColor(R.styleable.RoundImageView_iv_circle_background_color,
                     DEFAULT_CIRCLE_BACKGROUND_COLOR);
-        } else if (a.hasValue(R.styleable.RoundImageView_fill_color)) {
-            mCircleBackgroundColor = a.getColor(R.styleable.RoundImageView_fill_color,
+        } else if (a.hasValue(R.styleable.RoundImageView_iv_fill_color)) {
+            mCircleBackgroundColor = a.getColor(R.styleable.RoundImageView_iv_fill_color,
                     DEFAULT_CIRCLE_BACKGROUND_COLOR);
         }
-        mCorner = a.getDimensionPixelSize(R.styleable.RoundImageView_corner, DEFAULT_CORNER);
-        mType = a.getInt(R.styleable.RoundImageView_type, TYPE_ROUND);
+        mCorner = a.getDimensionPixelSize(R.styleable.RoundImageView_ivCorner, DEFAULT_CORNER);
+        mType = a.getInt(R.styleable.RoundImageView_ivType, TYPE_ROUND);
 
         a.recycle();
         init();

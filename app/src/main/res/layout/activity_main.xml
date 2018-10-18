@@ -18,10 +18,10 @@
             android:layout_height="100dp"
             android:layout_centerInParent="true"
             android:src="@drawable/image"
-            app:borderColor="#FF6600"
-            app:borderOverlay="true"
-            app:borderWidth="10dp"
-            app:type="round" />
+            app:ivBorderColor="#FF6600"
+            app:ivBorderOverlay="true"
+            app:ivBorderWidth="10dp"
+            app:ivType="round" />
 
     </RelativeLayout>
 
@@ -35,11 +35,11 @@
             android:layout_height="100dp"
             android:layout_centerInParent="true"
             android:src="@drawable/image2"
-            app:borderColor="#FF6600"
-            app:borderOverlay="true"
-            app:borderWidth="10dp"
-            app:corner="10dp"
-            app:type="square" />
+            app:ivBorderColor="#FF6600"
+            app:ivBorderOverlay="true"
+            app:ivBorderWidth="10dp"
+            app:ivCorner="10dp"
+            app:ivType="square" />
 
     </RelativeLayout>
 

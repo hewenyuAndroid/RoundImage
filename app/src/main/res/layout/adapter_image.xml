@@ -12,9 +12,9 @@
         android:layout_height="60dp"
         android:layout_centerVertical="true"
         android:src="@drawable/image"
-        app:borderColor="#FF6600"
-        app:borderWidth="2dp"
-        app:type="round" />
+        app:ivBorderColor="#FF6600"
+        app:ivBorderWidth="2dp"
+        app:ivType="round" />
 
     <com.hwy.round.RoundImageView
         android:id="@+id/iv_square"
@@ -23,8 +23,8 @@
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
         android:src="@drawable/image"
-        app:corner="10dp"
-        app:type="square" />
+        app:ivCorner="10dp"
+        app:ivType="square" />
 
     <com.hwy.round.RoundImageView
         android:id="@+id/iv_normal"
@@ -33,7 +33,7 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:src="@drawable/image"
-        app:corner="10dp"
-        app:type="normal" />
+        app:ivCorner="10dp"
+        app:ivType="normal" />
 
 </RelativeLayout>

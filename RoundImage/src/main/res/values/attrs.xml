@@ -2,17 +2,17 @@
 <resources>
 
     <declare-styleable name="RoundImageView">
-        <attr name="type" format="enum">
+        <attr name="ivType" format="enum">
             <enum name="normal" value="0" />
             <enum name="round" value="1" />
             <enum name="square" value="2" />
         </attr>
-        <attr name="corner" format="dimension|reference" />
-        <attr name="borderWidth" format="dimension|reference" />
-        <attr name="borderColor" format="color|reference" />
-        <attr name="borderOverlay" format="boolean" />
-        <attr name="fill_color" format="color" />
-        <attr name="circle_background_color" format="color" />
+        <attr name="ivCorner" format="dimension|reference" />
+        <attr name="ivBorderWidth" format="dimension|reference" />
+        <attr name="ivBorderColor" format="color|reference" />
+        <attr name="ivBorderOverlay" format="boolean" />
+        <attr name="iv_fill_color" format="color" />
+        <attr name="iv_circle_background_color" format="color" />
     </declare-styleable>
 
 </resources>
