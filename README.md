@@ -7,7 +7,7 @@
 
 ![listview中使用](https://upload-images.jianshu.io/upload_images/7082912-1076fdfc60ee0a76.gif?imageMogr2/auto-orient/strip)
 
-![badge](https://github.com/hewenyuAndroid/RoundImage/blob/master/app/screen/badge_image.png)
+![badge](https://github.com/hewenyuAndroid/RoundImage/blob/master/screen/badge_image.png)
 
 ### 引用方式
 
