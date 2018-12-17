@@ -7,9 +7,11 @@
 
 ![listview中使用](https://upload-images.jianshu.io/upload_images/7082912-1076fdfc60ee0a76.gif?imageMogr2/auto-orient/strip)
 
+![badge](https://github.com/hewenyuAndroid/RoundImage/blob/master/app/screen/badge_image.png)
+
 ### 引用方式
 
-> compile 'com.hewenyu:RoundImage:1.1'
+> compile 'com.hewenyu:RoundImage:1.2'
 
 ### 使用方式
 ```Java
@@ -36,5 +38,27 @@
     app:ivBorderWidth="10dp"
     app:ivCorner="10dp"
     app:ivType="square" />
+
+<!-- 带数字提示 -->
+<com.hwy.round.BadgeImageView
+    android:id="@+id/image_view"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="#EBEBEB"
+    android:padding="6dp"
+    app:badgeColor="#FF0000"
+    app:badgeMaxValue="99"
+    app:badgeOffsetX="-6dp"
+    app:badgeOffsetY="6dp"
+    app:badgeOverflow="99+"
+    app:badgeRadius="12dp"
+    app:badgeText="1"
+    app:badgeTextColor="#FFFFFF"
+    app:badgeTextSize="14sp"
+    app:badgeType="value"
+    app:ivBorderColor="#FF6600"
+    app:ivBorderOverlay="false"
+    app:ivBorderWidth="0dp"
+    app:ivType="round" />
 
 ```

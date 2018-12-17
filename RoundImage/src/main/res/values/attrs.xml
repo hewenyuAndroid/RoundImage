@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <declare-styleable name="BadgeImageView">
+        <attr name="badgeTextSize" format="dimension" />
+        <attr name="badgeText" format="integer" />
+        <attr name="badgeTextColor" format="color" />
+        <attr name="badgeRadius" format="dimension" />
+        <attr name="badgeColor" format="color" />
+        <attr name="badgeOffsetX" format="dimension" />
+        <attr name="badgeOffsetY" format="dimension" />
+        <!-- badge显示的最大数值 -->
+        <attr name="badgeMaxValue" format="integer" />
+        <!-- badge数值溢出时显示的文本 -->
+        <attr name="badgeOverflow" format="string" />
+        <!-- badge显示的类型 -->
+        <attr name="badgeType" format="enum">
+            <enum name="dot" value="0" />
+            <enum name="value" value="1" />
+        </attr>
+    </declare-styleable>
+
     <declare-styleable name="RoundImageView">
         <attr name="ivType" format="enum">
             <enum name="normal" value="0" />

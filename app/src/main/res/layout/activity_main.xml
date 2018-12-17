@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#EBEBEB">
+        android:background="#EBEBEB"
+        android:visibility="gone">
 
         <com.hwy.round.RoundImageView
             android:layout_width="100dp"
@@ -28,7 +29,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:visibility="gone">
 
         <com.hwy.round.RoundImageView
             android:layout_width="150dp"
@@ -50,5 +52,26 @@
         android:divider="#EBEBEB"
         android:dividerHeight="1dp"
         android:visibility="gone" />
+
+    <com.hwy.round.BadgeImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#EBEBEB"
+        android:padding="6dp"
+        app:badgeColor="#FF0000"
+        app:badgeMaxValue="99"
+        app:badgeOffsetX="-6dp"
+        app:badgeOffsetY="6dp"
+        app:badgeOverflow="99+"
+        app:badgeRadius="12dp"
+        app:badgeText="1"
+        app:badgeTextColor="#FFFFFF"
+        app:badgeTextSize="14sp"
+        app:badgeType="value"
+        app:ivBorderColor="#FF6600"
+        app:ivBorderOverlay="false"
+        app:ivBorderWidth="0dp"
+        app:ivType="round" />
 
 </LinearLayout>

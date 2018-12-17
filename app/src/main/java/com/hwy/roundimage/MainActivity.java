@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.bumptech.glide.Glide;
+import com.hwy.round.BadgeImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,10 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
     private Context mContext;
 
+    private BadgeImageView mBadgeImageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initBadge();
 
         listview = findViewById(R.id.listview);
         mContext = this;
@@ -74,6 +79,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void initBadge() {
+        mBadgeImageView = findViewById(R.id.image_view);
+        Glide.with(this)
+                .load("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545068529971&di=b21181c5de4f8f7802099d82d25ae336&imgtype=0&src=http%3A%2F%2Fimg.juimg.com%2Ftuku%2Fyulantu%2F140625%2F330872-140625231F968.jpg")
+                .into(mBadgeImageView);
     }
 
     private void initData() {
